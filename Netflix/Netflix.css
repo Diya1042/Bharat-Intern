@@ -1,0 +1,413 @@
+.Body{
+    height: 4400px;
+}
+.Background{
+    background:rgba(0,0,0,0.55);
+    background-image: url('./NetflixImages/background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    width: auto;
+    background-blend-mode: darken;
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 5fr 1.8fr;
+}
+.Netflix-Logo{
+    width: 195px;
+    padding-left: 160px;
+}
+
+.Language-Selection{
+    color:white;
+    display: flex;            
+    align-items: center;
+    justify-content:center;
+    width:126px;
+    height: 32px;
+    border-radius: 4px; 
+    border-width: 1px;  
+    border-style: solid;  
+    border-color: rgb(109, 109, 109);
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(2px);
+    outline:none;
+}
+.Language-Selection:active{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    outline:2px solid white;
+    outline-offset: 0.099rem;
+    border-width: 1px;  
+    border-style: solid;  
+    border-color: rgb(109, 109, 109);
+}
+.Languages{
+    margin-top: 10px;
+    background-color: white;
+    color:white;
+}
+.Languages:hover{
+    background-color: blue;
+}
+.Lang{
+    background-color: transparent;
+    color:white;
+    border:none;
+    font-family: roboto,Arial;
+    font-size: 15px;   
+    margin-right: 10px;  
+    outline: none;
+}
+.Lang:active{
+    border-color: black;
+}
+.Lang:hover{
+    border-color:black;
+}
+.Lang-logo{
+    margin-right: 5px;
+}
+
+.Sign-in{
+    background-color: red;
+    color:white;
+    width:77px;
+    height: 32px;
+    margin-left: 25px;
+    border-radius: 4px;
+    font-family: roboto,Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    font-size: 14px;
+    transition: 0.7s;
+}
+.Sign-in:hover{
+    background-color: rgb(192, 40, 40);
+}
+.Header-left{
+    display: flex;
+}
+
+.mid{
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    margin-top:11%;
+}
+.Middle-1{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial;    
+}
+.Unlimited{
+    font-size: 43px;
+    font-weight: 850;
+}
+.Watch{
+    font-size: 25px;
+    margin-top: -10px;
+}
+.Ready{
+    font-size: 21px;
+    font-family: Roboto,Arial; 
+}
+.Get-Started{
+    background-color: #E50914;
+    color:white;
+    width:201px;
+    height: 56px;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-family: roboto,Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    font-size: 23px;
+    transition: 0.7s;
+}
+.Get-Started:hover{
+    background-color: rgb(192, 40, 40);
+}
+.Email{
+    width: 380px;
+    height: 54px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    border-width: 0.5px;
+    border-color: rgb(121, 119, 119);
+    border-style: solid;
+    backdrop-filter: blur(2px);
+    color:white;
+    font-size:15px;
+    font-family: roboto,Arial;
+    padding-left: 16px;
+}
+.Email:active{
+    border-width: 0.5px;
+    border-color: rgb(121, 119, 119);
+    border-style: solid;
+    outline:2px solid white;
+    outline-offset: 0.099rem;
+}
+.Email::placeholder{
+    font-size: 15px;
+    color:rgb(194, 194, 194);
+}
+
+.R-E-S{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.E-S{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+.All-Grid{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 47, 47);
+    margin: -8px;
+}
+.position-next{
+    height: 574px;
+    background-color: black;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Enjoy{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.Frequently-AskedQ{
+    height: 970px;
+    background-color: black;
+    margin-top: 8px;
+}
+.questions{
+    height: 465px;
+    background-color: black;
+    margin-top: 8px;
+}
+.content-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 172px;
+    margin-right: 172px;
+}
+.img{
+    width: 570px;
+}
+.pos{
+    display: flex;
+    width: 600px;
+    margin-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.pos img{
+    width: 570px;
+    position: absolute;
+    object-fit: cover;
+    margin-top: -89px;
+    margin-left: -71px;
+}
+.pos video{
+    position: relative;
+    width: 420px;
+    height: 235px;
+    object-fit: cover;
+}
+
+.pos2{
+    display: flex;
+    align-items:last baseline;
+    justify-content: center;
+}
+.pos2 img{
+    width: 580px;
+    position: relative;
+}
+.pos2 span{
+    color:white;
+    position: absolute;
+    width: 313px;
+    height: 103px;
+    background-color: black;
+    margin-bottom: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(104, 104, 104);
+    border-radius: 12.5px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.Box img{
+    width: 57.14px;
+    margin-left: -8px;
+    margin-top: -3px;
+}
+.d-sym{
+    width: 48px;
+    height: 48px;
+}
+.Text{
+    line-height: 3px;
+}
+.p1{
+    margin-left: -26px;
+    font-size: 15px;
+    font-family: roboto,Arial;
+    font-weight: 570;
+}
+.D-p{
+    margin-left: -26px;
+    color:rgb(61, 121, 250);
+    font-family: roboto,Arial;
+    font-size: 14px;
+}
+
+.pos3{
+    display: flex;
+    width: 600px;
+    margin-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.pos3 img{
+    width: 570px;
+    position: absolute;
+    object-fit: cover;
+    margin-top: -89px;
+    margin-left: -71px;
+}
+.pos3 video{
+    position: relative;
+    width: 370px;
+    height: 230px;
+    object-fit: cover;
+    padding-left: 22px;
+    margin-top: -40px;
+}
+
+.Heading{
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.Para{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -14px;
+    line-height: 32px;
+}
+
+
+.Frequently-AskedQ{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    /* height: 61.6px; */
+    /* width: 961px; */
+}
+.Top{
+    height: 61.6px;
+    width: 1175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+.Qns{
+    height: 550px;
+    width: 1175px;
+}
+.Q{
+    color: white;
+    background-color: rgb(50, 50, 50);
+    margin-top: 9.2px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 21px;
+    transition: 0.3s;
+}
+.Q:hover{
+    background-color: rgb(72, 72, 72);
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+
+.LQ{
+    color:rgb(187, 186, 186);
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    padding: 12px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.links{
+    color:rgb(187, 186, 186);
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    line-height: 32px;
+}
+.links:active{
+    color:red;
+}
+.Netflix-India{
+    color:rgb(187, 186, 186);
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    margin-left: 185px;
+    margin-top: 28px;
+}
+.All-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 145px;
+}
+.L{
+    margin-left: 185px;
+    margin-top: 32px;
+}
